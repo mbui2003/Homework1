@@ -14,6 +14,7 @@ public class CargoShip extends Ship {
         this.cargoCapacityInTonnage = cargoCapacityInTonnage;
     }
 
+    @Override
     public void print() {
         System.out.println("Ship Name: " + getShipName());
         System.out.println("Cargo Capacity in Tonnage: " + getCargoCapacityInTonnage());
