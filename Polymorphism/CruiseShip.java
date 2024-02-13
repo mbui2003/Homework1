@@ -14,6 +14,7 @@ public class CruiseShip extends Ship {
         this.maximumNumPassengers = maximumNumPassengers;
     }
 
+    @Override
     public void print() {
         System.out.println("Ship Name: " + getShipName());
         System.out.println("Maximum Number of Passengers: " + getMaximumNumPassengers());
