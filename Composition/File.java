@@ -13,7 +13,11 @@ public class File {
         this.fileName = fileName;
     }
 
-    public void print() {
-        System.out.println(fileName);
+    public void print(int level) {
+        StringBuilder indentation = new StringBuilder();
+        for (int i = 0; i < level; i++) {
+            indentation.append("\t");
+        }
+        System.out.println(indentation.toString() + "File: " + getFileName());
     }
 }
