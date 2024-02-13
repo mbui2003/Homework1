@@ -1,5 +1,3 @@
-import org.w3c.dom.Text;
-
 public class CourseDriver {
     public static void main(String[] args) {
         Instructor instructor = new Instructor("Nima", "Davarpanah", "3-2636");
