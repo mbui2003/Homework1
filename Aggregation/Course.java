@@ -16,6 +16,22 @@ public class Course {
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }
+    
+    public Instructor getInstructor() {
+        return instructor;
+    }
+    
+    public void setInstructor(Instructor instructor) {
+        this.instructor = instructor;
+    }
+    
+    public Textbook getTextbook() {
+        return textbook;
+    }
+    
+    public void setTextbook(Textbook textbook) {
+        this.textbook = textbook;
+    }
 
     public void print() {
         System.out.println("Course Name: " + getCourseName());
